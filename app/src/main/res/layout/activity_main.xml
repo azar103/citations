@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.MainActivity"
+    android:background="@drawable/purpble"
+    >
+
+    <ImageView
+        android:id="@+id/activity_main_header_img"
+        android:layout_width="1630dp"
+        android:layout_height="181dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/img_1"/>
+    <TextView
+        android:id="@+id/activity_main_description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:textColor="@android:color/white"
+
+
+        />
+
+    <Button
+        android:id="@+id/activity_main_generate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/mybutton"
+        android:padding="20dp"
+        android:text="إختر مقولة"
+        android:textSize="33sp" />
+
+</RelativeLayout>
